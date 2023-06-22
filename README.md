@@ -1,3 +1,2 @@
 # conversor-bases-numericas
-Trabalho da faculdade na matéria introdução a computação.
-Conversor que trabalha entre bases decimais, octais, hexadecimais e binários.
+Trabalho da faculdade realizado na matéria de introdução a computação, o conversor trabalha entre bases decimais, octais, hexadecimais e binários.
