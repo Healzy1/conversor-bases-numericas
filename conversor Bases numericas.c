@@ -44,7 +44,7 @@ int main(){
 				if(final == 3){
 				
 					int binariohexadecimal = strtol(binario, NULL, 2);
-					printf("\nO valor binario %o convertido para hexadecimal corresponde a: %X\n",binario, binariohexadecimal);
+					printf("\nO valor binario %s convertido para hexadecimal corresponde a: %X\n",binario, binariohexadecimal);
 					
 				}else{
 					
