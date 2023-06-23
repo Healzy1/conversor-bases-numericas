@@ -31,7 +31,7 @@ int main(){
 		
 		if(final == 1){
 			
-			int binariooctal = strtol(binario, NULL, 2);
+			int binariooctal = strtol(binario, NULL, 2); // utilizei essa strtol para converter a string em um valor numerico
 			printf("\nO valor binario %s convertido para octal corresponde a: %o\n",binario, binariooctal);
 		
 		}else
@@ -44,7 +44,7 @@ int main(){
 				if(final == 3){
 				
 					int binariohexadecimal = strtol(binario, NULL, 2);
-					printf("\nO valor octal %o convertido para hexadecimal corresponde a: %X\n",binario, binariohexadecimal);
+					printf("\nO valor binario %o convertido para hexadecimal corresponde a: %X\n",binario, binariohexadecimal);
 					
 				}else{
 					
@@ -68,7 +68,7 @@ int main(){
 		
 		if(final == 1){
 			
-		ltoa(numinicial, binario, 2);
+		ltoa(numinicial, binario, 2); // utilizei essa ltoa para converter um valor numerico em uma string (binario), basicamente o contrário do strtol
 		printf("O valor octal %o convertido para binario corresponde a: %s\n", numinicial, binario);
 		
 		}else
